@@ -141,11 +141,14 @@ def tao_report(name, output_test,predictions,name_report):
         file.write(f"Precision: {precision:.4f}\n")
         file.write(f"Recall: {recall:.4f}\n")
         file.write(f"F1 Score: {f1:.4f}\n")
-        file.write("Confusion Matrix:\n")       
+        file.write("Confusion Matrix:\n")
+        
         # Chuyển confusion matrix thành chuỗi và ghi vào tệp
         for row in conf_matrix:
             file.write(" ".join(map(str, row)) + "\n")
+
         file.write("\n//////////////////////////////////////////////////////////////////////////////////////////////\n\n")
+
 import random
 def creater_random_3_question(no_include_labe):
     labels= [item for item in search_name_lable(table_name="all") if item != no_include_labe]

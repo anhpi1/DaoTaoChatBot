@@ -16,7 +16,7 @@ command_connect_sever = 'DRIVER={{SQL Server}};SERVER={};DATABASE={};UID={};PWD=
 command_sever_get_input = 'SELECT content FROM dbo.question;'
 command_sever_get_output = 'SELECT {} FROM dbo.question;'
 command_sever_get_output_train = 'SELECT {}_id FROM dbo.question;'
-co_train_du_lieu_test=0
+co_train_du_lieu_test=1
 so_mau_train=8
 so_mau_train_tf=2
 so_mau_false_x_20 = 3
