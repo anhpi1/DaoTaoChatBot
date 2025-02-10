@@ -1,7 +1,7 @@
 from itertools import combinations
 
 # Danh sách ban đầu
-numbers = [5, 24, 12, 4, 0, 0, 0, 0, 0]
+numbers = [1, -2, 0, 3]
 
 # Hàm thay thế các phần tử lớn hơn 0
 def replace_positive(numbers):
